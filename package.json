@@ -1,1 +1,15 @@
-
+{
+  "name": "snake-legends",
+  "version": "0.1.0",
+  "description": "Snake Legends Online Multiplayer Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "SL Team",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
